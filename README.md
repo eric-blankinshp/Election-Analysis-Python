@@ -1,51 +1,31 @@
-# Election-Analysis
+# Election-Audit
 
-## Project Overview
+## Overview of Election Audit
+The purpose of this audit was to add the following additional data to complete the audit.
 
-The goal of this project was to gather and then present election data for different counties. I did this using several new Python function I leanred.
+1. The voter turnout for each county.
+2. The precentage of votes from each county.
+3. The county with the largest turnout.
 
 ## Resources
-Data Source: election_results.csv
-Software: Python 3.7, Visual code studio
+- Data Source: election_results.csv
+- Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
-# 1: Create a county list and county votes dictionary.
-# 2: Track the largest county and county voter turnout.
-# 3: Extract the county name from each row.
-# 4a: Write an if statement that checks that the
-# 4b: Add the existing county to the list of counties.
- # 4c: Begin tracking the county's vote count.
-# 5: Add a vote to that county's vote count
-# 6a: Write a for loop to get the county from the county dictionary.
-# 6b: Retrieve the county vote count.
-# 6c: Calculate the percentage of votes for the county.
-# 6d: Print the county results to the terminal.
-# 6e: Save the county votes to a text file.
-# 6f: Write an if statement to determine the winning county and get its vote count.
-# 7: Print the county with the largest turnout to the terminal.
-# 8: Save the county with the largest turnout to a text file.
+## Election-Audit Results
+The audit of the election show that:
+- There were 369,711 votes cast in the election.
+- The county results were:
+  - Jefferson County had 10.5% of the vote and 38,855 number of votes.
+  - Denver County had 82.8% of the vote and 306,055 number of votes. 
+  - Arapahoe County had 6.7% of the vote and 24,804 number of votes.
+-The county with the largest voter turnout was:
+  -Denver County with 82.8% of the vote and 306,055 number of votes.
+- The candidate results were:
+  - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+  - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+  - Raymon Anthony Doane recieved 3.1% of the vote and 11,606 number of votes.
+- The winner of the election was:
+  - Diane Degette who recieved 73.8% of the vote and 272,892 number of votes.
 
-
-Summary:
-
-Election Results
--------------------------
-Total Votes: 369,711
--------------------------
-
-County Votes:
-Jefferson: 10.5% (38,855)
-Denver: 82.8% (306,055)
-Arapahoe: 6.7% (24,801)
--------------------------
-Winner: Arapahoe
-Winning Vote Count: 24,801
-Winning Percentage: 6.7%
--------------------------
-Charles Casper Stockham: 23.0% (85,213)
-Diana DeGette: 73.8% (272,892)
-Raymon Anthony Doane: 3.1% (11,606)
--------------------------
-Winner: Diana DeGette
-Winning Vote Count: 272,892
-Winning Percentage: 73.8%
--------------------------
+## Election-Audit Summary
+The script as written, can be used as written for other districts or states within the parameter used here. Since most elections have more than one seat being elected, some simple modifications can be made to accomidate this. For every seat I would need to create a list and dictionary to hold their names and votes. I would need to extract name from the corisponding row in the data and track their votes. Use if statements to retrieve the candidates and calculate the winner. I would need  a for loop to determine the percentage of votes for the candidate. Then just print the results.
