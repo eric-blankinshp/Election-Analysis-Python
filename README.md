@@ -22,6 +22,9 @@ The audit of the election show that:
   - Arapahoe County had 6.7% of the vote and 24,804 number of votes.
 -The county with the largest voter turnout was:
   -Denver County with 82.8% of the vote and 306,055 number of votes.
+  
+  ![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/election_results.csv)
+  
 - The candidate results were:
   - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
   - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
