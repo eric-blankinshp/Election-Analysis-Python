@@ -23,7 +23,7 @@ The audit of the election show that:
 -The county with the largest voter turnout was:
   -Denver County with 82.8% of the vote and 306,055 number of votes.
   
-  ![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/election_results.csv)
+  ![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/Candidate_Votes.csv)
   
 - The candidate results were:
   - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
