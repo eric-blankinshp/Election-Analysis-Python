@@ -12,7 +12,7 @@ The purpose of this audit was to add the following additional data to complete t
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
 ## Election-Audit Results
-![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/Total_Votes.png)
+![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/Candidate_Votes.png)
 
 The audit of the election show that:
 - There were 369,711 votes cast in the election.
