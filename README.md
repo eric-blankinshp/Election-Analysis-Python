@@ -12,7 +12,7 @@ The purpose of this audit was to add the following additional data to complete t
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
 ## Election-Audit Results
-![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/Candidate_Votes.png)
+![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/Total_Votes.png)
 
 The audit of the election show that:
 - There were 369,711 votes cast in the election.
@@ -23,7 +23,7 @@ The audit of the election show that:
 -The county with the largest voter turnout was:
   -Denver County with 82.8% of the vote and 306,055 number of votes.
   
-  ![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/Candidate_Votes.csv)
+  ![image](https://github.com/eric-blankinshp/Election-Analysis-Python/blob/main/Resources/Candidate_Votes.png)
   
 - The candidate results were:
   - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
